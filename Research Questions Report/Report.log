@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.8.3)  3 AUG 2022 21:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.8.3)  4 AUG 2022 07:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -549,13 +549,13 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 Here is how much of TeX's memory you used:
  16765 strings out of 478337
  343690 string characters out of 2836667
- 636443 words of memory out of 3000000
+ 636442 words of memory out of 3000000
  34872 multiletter control sequences out of 15000+600000
  475859 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,6n,92p,569b,275s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/jason/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jason/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jason/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Report.pdf (7 pages, 72550 bytes).
+Output written on Report.pdf (7 pages, 72549 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
