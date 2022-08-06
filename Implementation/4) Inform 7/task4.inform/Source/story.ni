@@ -35,17 +35,41 @@ Paul Speaks is a scene.
 
 Paul Speaks begins when the Italian box is in the aquarium and the Greek box is in the aquarium.
 
-Understand "tell [Paul the Octopus] Greek box" as answering it that.
-Understand "tell [Paul the Octopus] Italian box" as answering it that. 
-
 When Paul Speaks begins:
 	say "Which box will you open?[paragraph break]
 		The Greek box or the Italian box?[paragraph break]";
 		
-Instead of answering Paul that "Greek box":
-	say "gg ez";
-		
-After reading a command: 
-	if the Italian box is in the aquarium and the Greek box is in the aquarium:
-		let N be "[the player's command]";
-		say "[N][paragraph break]"; 
+Asking someone about something is speech. 
+Answering someone that something is speech. 
+Asking someone for something is speech. 
+
+Table of Paul Actions
+topic	commentary
+"Greek box"	"I have opened the Greek box."
+"Italian box"	"I have opened the Italian box."
+ 
+Instead of speech when the noun is Paul: 
+	repeat through Table of Paul Actions: 
+		if the Italian box is in the aquarium and the Greek box is in the aquarium:
+			if the topic understood includes topic entry: 
+				if a box is not open:
+					if the topic is "Greek box":
+						now Greek box is open;
+						say "[commentary entry][paragraph break]";
+						rule succeeds; 
+					else if the topic is "Italian box":
+						now Italian box is open;
+						say "[commentary entry][paragraph break]"; 
+						rule succeeds; 
+					else: 
+						say "Choose a box.";
+						rule succeeds; 
+				else: 
+					say "A box has already been opened.";
+					rule succeeds; 
+			else: 
+				say "Answer me with Greek box or Italian box when they are both in the tank.";
+				rule succeeds; 
+		else: 
+			say "Cannot open a box yet.";
+			rule succeeds; 

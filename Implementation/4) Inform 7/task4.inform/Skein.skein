@@ -1,32 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-0">
+<Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-71"/>
-  <item nodeId="node-0">
-    <command xml:space="preserve">task4</command>
-    <result xml:space="preserve">task4&#x000A;An Interactive Fiction by Jason Antalis 19141859&#x000A;Release 1 / Serial number 220805 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;room A&#x000A;You can see Greek box (closed) and Italian box (closed) here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1"/>
-      <child nodeId="node-4"/>
-      <child nodeId="node-7"/>
-      <child nodeId="node-13"/>
-      <child nodeId="node-43"/>
-    </children>
-  </item>
+  <activeNode nodeId="node-87"/>
   <item nodeId="node-1">
-    <command xml:space="preserve">yes</command>
-    <result xml:space="preserve">That was a rhetorical question.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">task4</command>
+    <result xml:space="preserve">task4&#x000A;An Interactive Fiction by Jason Antalis 19141859&#x000A;Release 1 / Serial number 220806 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;room A&#x000A;You can see Greek box (closed) and Italian box (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-2"/>
+      <child nodeId="node-5"/>
+      <child nodeId="node-8"/>
+      <child nodeId="node-14"/>
+      <child nodeId="node-44"/>
     </children>
   </item>
   <item nodeId="node-2">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">That was a rhetorical question.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -34,23 +25,23 @@
     </children>
   </item>
   <item nodeId="node-3">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
     <command xml:space="preserve">cry</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-4">
+  <item nodeId="node-5">
     <command xml:space="preserve">Go into the Chest</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-5"/>
-    </children>
-  </item>
-  <item nodeId="node-5">
-    <command xml:space="preserve">Change Rooms</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -58,41 +49,41 @@
     </children>
   </item>
   <item nodeId="node-6">
+    <command xml:space="preserve">Change Rooms</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-7"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
     <command xml:space="preserve">change room</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-7">
+  <item nodeId="node-8">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">room A&#x000A;Cast aside, as if worthless, is a plain brass ring.&#x000A;&#x000A;You can also see two boxes, a Greek box and an Italian box here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
-    <children>
-      <child nodeId="node-8"/>
-    </children>
-  </item>
-  <item nodeId="node-8">
-    <command xml:space="preserve">look at boxes</command>
-    <result xml:space="preserve">You see nothing special about two boxes.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
     <children>
       <child nodeId="node-9"/>
     </children>
   </item>
   <item nodeId="node-9">
-    <command xml:space="preserve">showme</command>
-    <result xml:space="preserve">room A - room&#x000A;    yourself - person&#x000A;    two boxes&#x000A;    Greek box&#x000A;    Italian box&#x000A;    plain ring&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look at boxes</command>
+    <result xml:space="preserve">You see nothing special about two boxes.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-10"/>
     </children>
   </item>
   <item nodeId="node-10">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">room A&#x000A;Cast aside, as if worthless, is a plain brass ring.&#x000A;&#x000A;You can also see two boxes, a Greek box and an Italian box here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">showme</command>
+    <result xml:space="preserve">room A - room&#x000A;    yourself - person&#x000A;    two boxes&#x000A;    Greek box&#x000A;    Italian box&#x000A;    plain ring&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
@@ -100,8 +91,8 @@
     </children>
   </item>
   <item nodeId="node-11">
-    <command xml:space="preserve">showme</command>
-    <result xml:space="preserve">room A - room&#x000A;    yourself - person&#x000A;    two boxes&#x000A;    Greek box&#x000A;    Italian box&#x000A;    plain ring&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">room A&#x000A;Cast aside, as if worthless, is a plain brass ring.&#x000A;&#x000A;You can also see two boxes, a Greek box and an Italian box here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
@@ -109,31 +100,33 @@
     </children>
   </item>
   <item nodeId="node-12">
+    <command xml:space="preserve">showme</command>
+    <result xml:space="preserve">room A - room&#x000A;    yourself - person&#x000A;    two boxes&#x000A;    Greek box&#x000A;    Italian box&#x000A;    plain ring&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">room A&#x000A;Cast aside, as if worthless, is a plain brass ring.&#x000A;&#x000A;You can also see two boxes, a Greek box and an Italian box here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-13">
+  <item nodeId="node-14">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">room B&#x000A;You can see an aquarium (in which is Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-14"/>
-    </children>
-  </item>
-  <item nodeId="node-14">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">room A&#x000A;You can see Greek box (closed) and Italian box (closed) here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
       <child nodeId="node-15"/>
+      <child nodeId="node-73"/>
+      <child nodeId="node-75"/>
     </children>
   </item>
   <item nodeId="node-15">
-    <command xml:space="preserve">look</command>
+    <command xml:space="preserve">go north</command>
     <result xml:space="preserve">room A&#x000A;You can see Greek box (closed) and Italian box (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -142,8 +135,8 @@
     </children>
   </item>
   <item nodeId="node-16">
-    <command xml:space="preserve">look at Greek box</command>
-    <result xml:space="preserve">This box has a Greek flag.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">room A&#x000A;You can see Greek box (closed) and Italian box (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -151,8 +144,8 @@
     </children>
   </item>
   <item nodeId="node-17">
-    <command xml:space="preserve">carry Greek box</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look at Greek box</command>
+    <result xml:space="preserve">This box has a Greek flag.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -160,8 +153,8 @@
     </children>
   </item>
   <item nodeId="node-18">
-    <command xml:space="preserve">carry Italian box</command>
-    <result xml:space="preserve">You're carrying too many things already.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">carry Greek box</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -169,8 +162,8 @@
     </children>
   </item>
   <item nodeId="node-19">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">room A&#x000A;You can see Italian box (closed) here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">carry Italian box</command>
+    <result xml:space="preserve">You're carrying too many things already.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -178,8 +171,8 @@
     </children>
   </item>
   <item nodeId="node-20">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">room B&#x000A;You can see an aquarium (in which is Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">room A&#x000A;You can see Italian box (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -187,8 +180,8 @@
     </children>
   </item>
   <item nodeId="node-21">
-    <command xml:space="preserve">drop Greek box</command>
-    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">room B&#x000A;You can see an aquarium (in which is Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -196,8 +189,8 @@
     </children>
   </item>
   <item nodeId="node-22">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">room B&#x000A;You can see Greek box (closed) and an aquarium (in which is Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">drop Greek box</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -205,8 +198,8 @@
     </children>
   </item>
   <item nodeId="node-23">
-    <command xml:space="preserve">pick up Greek box</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">room B&#x000A;You can see Greek box (closed) and an aquarium (in which is Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -214,8 +207,8 @@
     </children>
   </item>
   <item nodeId="node-24">
-    <command xml:space="preserve">drop Greek box into aquarium</command>
-    <result xml:space="preserve">You put Greek box into the aquarium.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">pick up Greek box</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -223,8 +216,8 @@
     </children>
   </item>
   <item nodeId="node-25">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">room B&#x000A;You can see an aquarium (in which are Greek box (closed) and Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">drop Greek box into aquarium</command>
+    <result xml:space="preserve">You put Greek box into the aquarium.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -232,8 +225,8 @@
     </children>
   </item>
   <item nodeId="node-26">
-    <command xml:space="preserve">pick up Greek box</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">room B&#x000A;You can see an aquarium (in which are Greek box (closed) and Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -241,8 +234,8 @@
     </children>
   </item>
   <item nodeId="node-27">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">room B&#x000A;You can see an aquarium (in which is Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">pick up Greek box</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -250,8 +243,8 @@
     </children>
   </item>
   <item nodeId="node-28">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying:&#x000A;  Greek box&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">room B&#x000A;You can see an aquarium (in which is Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -259,8 +252,8 @@
     </children>
   </item>
   <item nodeId="node-29">
-    <command xml:space="preserve">drop</command>
-    <result xml:space="preserve">(Greek box)&#x000A;Dropped.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Greek box&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -268,8 +261,8 @@
     </children>
   </item>
   <item nodeId="node-30">
-    <command xml:space="preserve">go back</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">drop</command>
+    <result xml:space="preserve">(Greek box)&#x000A;Dropped.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -277,8 +270,8 @@
     </children>
   </item>
   <item nodeId="node-31">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">room A&#x000A;You can see Italian box (closed) here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go back</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -286,8 +279,8 @@
     </children>
   </item>
   <item nodeId="node-32">
-    <command xml:space="preserve">pick up</command>
-    <result xml:space="preserve">(Italian box)&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">room A&#x000A;You can see Italian box (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -295,8 +288,8 @@
     </children>
   </item>
   <item nodeId="node-33">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">room B&#x000A;You can see Greek box (closed) and an aquarium (in which is Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">pick up</command>
+    <result xml:space="preserve">(Italian box)&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -304,8 +297,8 @@
     </children>
   </item>
   <item nodeId="node-34">
-    <command xml:space="preserve">drop</command>
-    <result xml:space="preserve">(Italian box)&#x000A;Dropped.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">room B&#x000A;You can see Greek box (closed) and an aquarium (in which is Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -313,8 +306,8 @@
     </children>
   </item>
   <item nodeId="node-35">
-    <command xml:space="preserve">pick up Italian box</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">drop</command>
+    <result xml:space="preserve">(Italian box)&#x000A;Dropped.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -322,8 +315,8 @@
     </children>
   </item>
   <item nodeId="node-36">
-    <command xml:space="preserve">drop Italian box into aquarium</command>
-    <result xml:space="preserve">You put Italian box into the aquarium.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">pick up Italian box</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -331,8 +324,8 @@
     </children>
   </item>
   <item nodeId="node-37">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">room B&#x000A;You can see Greek box (closed) and an aquarium (in which are Italian box (closed) and Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">drop Italian box into aquarium</command>
+    <result xml:space="preserve">You put Italian box into the aquarium.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -340,26 +333,26 @@
     </children>
   </item>
   <item nodeId="node-38">
-    <command xml:space="preserve">showme</command>
-    <result xml:space="preserve">room B - room&#x000A;    yourself - person&#x000A;    Greek box - closed container&#x000A;        *Spartan Helmet&#x000A;    aquarium - open container&#x000A;        Italian box - closed container&#x000A;            *Gladiator Sword&#x000A;        Paul the Octopus&#x000A;* denotes things which are not in scope&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">room B&#x000A;You can see Greek box (closed) and an aquarium (in which are Italian box (closed) and Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-39"/>
     </children>
   </item>
   <item nodeId="node-39">
-    <command xml:space="preserve">pick up aquarium</command>
-    <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">showme</command>
+    <result xml:space="preserve">room B - room&#x000A;    yourself - person&#x000A;    Greek box - closed container&#x000A;        *Spartan Helmet&#x000A;    aquarium - open container&#x000A;        Italian box - closed container&#x000A;            *Gladiator Sword&#x000A;        Paul the Octopus&#x000A;* denotes things which are not in scope&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-40"/>
     </children>
   </item>
   <item nodeId="node-40">
-    <command xml:space="preserve">drop</command>
-    <result xml:space="preserve">What do you want to drop?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">pick up aquarium</command>
+    <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -367,8 +360,8 @@
     </children>
   </item>
   <item nodeId="node-41">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">room B&#x000A;You can see Greek box (closed) and an aquarium (in which are Italian box (closed) and Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">drop</command>
+    <result xml:space="preserve">What do you want to drop?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -376,23 +369,62 @@
     </children>
   </item>
   <item nodeId="node-42">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">room B&#x000A;You can see Greek box (closed) and an aquarium (in which are Italian box (closed) and Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
     <command xml:space="preserve">open Greek</command>
     <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-43">
-    <command xml:space="preserve">look at Greek box</command>
-    <result xml:space="preserve">This box has a Greek flag.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-73">
+    <command xml:space="preserve">tell paul test</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-44"/>
+      <child nodeId="node-74"/>
     </children>
   </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">tell paul greek box</command>
+    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">tell paul greek box</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">paul greek box</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">tell paul greek</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
   <item nodeId="node-44">
-    <command xml:space="preserve">look at Italian box</command>
-    <result xml:space="preserve">This box has a Italian flag.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look at Greek box</command>
+    <result xml:space="preserve">This box has a Greek flag.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -400,8 +432,8 @@
     </children>
   </item>
   <item nodeId="node-45">
-    <command xml:space="preserve">pick up Greek</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look at Italian box</command>
+    <result xml:space="preserve">This box has a Italian flag.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -409,8 +441,8 @@
     </children>
   </item>
   <item nodeId="node-46">
-    <command xml:space="preserve">drop</command>
-    <result xml:space="preserve">(Greek box)&#x000A;Dropped.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">pick up Greek</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -418,8 +450,8 @@
     </children>
   </item>
   <item nodeId="node-47">
-    <command xml:space="preserve">pick greek</command>
-    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">drop</command>
+    <result xml:space="preserve">(Greek box)&#x000A;Dropped.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -427,8 +459,8 @@
     </children>
   </item>
   <item nodeId="node-48">
-    <command xml:space="preserve">pick up greek box</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">pick greek</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -436,8 +468,8 @@
     </children>
   </item>
   <item nodeId="node-49">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">room B&#x000A;You can see an aquarium (in which is Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">pick up greek box</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -445,8 +477,8 @@
     </children>
   </item>
   <item nodeId="node-50">
-    <command xml:space="preserve">drop greek box in aquarium</command>
-    <result xml:space="preserve">You put Greek box into the aquarium.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">room B&#x000A;You can see an aquarium (in which is Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -454,8 +486,8 @@
     </children>
   </item>
   <item nodeId="node-51">
-    <command xml:space="preserve">pick up greek</command>
-    <result xml:space="preserve">The Greek box has been placed into the aquarium, and cannot be removed.&#x000A;&#x000A;That's fixed in place.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">drop greek box in aquarium</command>
+    <result xml:space="preserve">You put Greek box into the aquarium.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -472,8 +504,8 @@
     </children>
   </item>
   <item nodeId="node-53">
-    <command xml:space="preserve">inventory</command>
-    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">pick up greek</command>
+    <result xml:space="preserve">The Greek box has been placed into the aquarium, and cannot be removed.&#x000A;&#x000A;That's fixed in place.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -481,8 +513,8 @@
     </children>
   </item>
   <item nodeId="node-54">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">room B&#x000A;You can see an aquarium (in which are Greek box (closed) and Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -490,8 +522,8 @@
     </children>
   </item>
   <item nodeId="node-55">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">room A&#x000A;You can see Italian box (closed) here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">room B&#x000A;You can see an aquarium (in which are Greek box (closed) and Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -499,8 +531,8 @@
     </children>
   </item>
   <item nodeId="node-56">
-    <command xml:space="preserve">pick up</command>
-    <result xml:space="preserve">(Italian box)&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">room A&#x000A;You can see Italian box (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -508,8 +540,8 @@
     </children>
   </item>
   <item nodeId="node-57">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">room B&#x000A;You can see an aquarium (in which are Greek box (closed) and Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">pick up</command>
+    <result xml:space="preserve">(Italian box)&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -517,18 +549,18 @@
     </children>
   </item>
   <item nodeId="node-58">
-    <command xml:space="preserve">drop italian in aquarium</command>
-    <result xml:space="preserve">You put Italian box into the aquarium.&#x000A;&#x000A;Which box will you open?&#x000A;&#x000A; The Greek box or the Italian box?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You put Italian box into the aquarium.&#x000A;&#x000A;Which box will you open?&#x000A;&#x000A; The Greek box or the Italian box?</commentary>
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">room B&#x000A;You can see an aquarium (in which are Greek box (closed) and Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-59"/>
     </children>
   </item>
   <item nodeId="node-59">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">look&#x000A;&#x000A;room B&#x000A;You can see an aquarium (in which are Italian box (closed), Greek box (closed) and Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <command xml:space="preserve">drop italian in aquarium</command>
+    <result xml:space="preserve">You put Italian box into the aquarium.&#x000A;&#x000A;Which box will you open?&#x000A;&#x000A; The Greek box or the Italian box?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You put Italian box into the aquarium.&#x000A;&#x000A;Which box will you open?&#x000A;&#x000A; The Greek box or the Italian box?</commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-60"/>
@@ -536,7 +568,7 @@
   </item>
   <item nodeId="node-60">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">look&#x000A;&#x000A;room B&#x000A;You can see an aquarium (in which are Italian box (closed), Greek box (closed) and Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">room B&#x000A;You can see an aquarium (in which are Italian box (closed), Greek box (closed) and Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -544,8 +576,8 @@
     </children>
   </item>
   <item nodeId="node-61">
-    <command xml:space="preserve">go inside</command>
-    <result xml:space="preserve">go inside&#x000A;&#x000A;You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">room B&#x000A;You can see an aquarium (in which are Italian box (closed), Greek box (closed) and Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -553,8 +585,8 @@
     </children>
   </item>
   <item nodeId="node-62">
-    <command xml:space="preserve">tell Dave box A</command>
-    <result xml:space="preserve">tell Dave box A&#x000A;&#x000A;You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go inside</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -562,17 +594,17 @@
     </children>
   </item>
   <item nodeId="node-63">
-    <command xml:space="preserve">tell Paul greek box</command>
-    <result xml:space="preserve">tell Paul greek box&#x000A;&#x000A;I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">tell Dave box A</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-64"/>
     </children>
   </item>
   <item nodeId="node-64">
-    <command xml:space="preserve">open greek</command>
-    <result xml:space="preserve">open greek&#x000A;&#x000A;It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">tell Paul greek box</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -580,8 +612,8 @@
     </children>
   </item>
   <item nodeId="node-65">
-    <command xml:space="preserve">yes</command>
-    <result xml:space="preserve">yes&#x000A;&#x000A;That was a rhetorical question.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open greek</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -589,8 +621,8 @@
     </children>
   </item>
   <item nodeId="node-66">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">look&#x000A;&#x000A;room B&#x000A;You can see an aquarium (in which are Italian box (closed), Greek box (closed) and Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">That was a rhetorical question.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -598,8 +630,8 @@
     </children>
   </item>
   <item nodeId="node-67">
-    <command xml:space="preserve">tell Paul cheese</command>
-    <result xml:space="preserve">tell Paul cheese&#x000A;&#x000A;I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">room B&#x000A;You can see an aquarium (in which are Italian box (closed), Greek box (closed) and Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -607,8 +639,8 @@
     </children>
   </item>
   <item nodeId="node-68">
-    <command xml:space="preserve">tell Paul the Octopus cheese</command>
-    <result xml:space="preserve">tell Paul the Octopus cheese&#x000A;&#x000A;I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">tell Paul cheese</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -616,17 +648,19 @@
     </children>
   </item>
   <item nodeId="node-69">
-    <command xml:space="preserve">tell Paul the Octopus Greek box</command>
-    <result xml:space="preserve">tell Paul the Octopus Greek box&#x000A;&#x000A;I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">tell Paul the Octopus cheese</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-70"/>
+      <child nodeId="node-78"/>
+      <child nodeId="node-79"/>
     </children>
   </item>
   <item nodeId="node-70">
-    <command xml:space="preserve">tell Paul the Octopus to open Greek box</command>
-    <result xml:space="preserve">tell Paul the Octopus to open Greek box&#x000A;&#x000A;I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">tell Paul the Octopus Greek box</command>
+    <result xml:space="preserve">tell Paul the Octopus Greek box&#x000A;&#x000A;&#x000A;*** Run-time problem P41: Attempt to match a snippet value which is currently invalid: words 0 to -1.&#x000A;&#x000A;I have opened the Greek box.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -634,8 +668,101 @@
     </children>
   </item>
   <item nodeId="node-71">
+    <command xml:space="preserve">tell Paul the Octopus to open Greek box</command>
+    <result xml:space="preserve">tell Paul the Octopus to open Greek box&#x000A;&#x000A;I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
     <command xml:space="preserve">answer Paul greek</command>
-    <result xml:space="preserve">answer Paul greek&#x000A;&#x000A;(to Paul the Octopus)&#x000A;There is no reply.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">answer Paul greek&#x000A;&#x000A;(to Paul the Octopus)&#x000A;"Hmmf," says Aunt Martha.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">tell paul greek</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">answer paul greek</command>
+    <result xml:space="preserve">(to Paul the Octopus)&#x000A;Answer me with Greek box or Italian box when they are both in the tank.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">answer paul open the greek box</command>
+    <result xml:space="preserve">(to Paul the Octopus)&#x000A;I have opened the Greek box.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">tell paul open the greek box</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">ask paul about the greek box</command>
+    <result xml:space="preserve">A box has already been opened.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">tell paul to open the greek box</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">answer paul greek</command>
+    <result xml:space="preserve">(to Paul the Octopus)&#x000A;Answer me with Greek box or Italian box when they are both in the tank.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">answer paul greek box</command>
+    <result xml:space="preserve">(to Paul the Octopus)&#x000A;A box has already been opened.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">room B&#x000A;You can see an aquarium (in which are Italian box (closed), Greek box (in which is Spartan Helmet) and Paul the Octopus) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
