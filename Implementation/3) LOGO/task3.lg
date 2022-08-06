@@ -1,0 +1,25 @@
+clearscreen window
+
+to circles :count
+    start :count :count
+    if :count = 1 
+  		repeat 360[fd 1 rt 1]
+    if :count > 1 
+        start :count 2
+end
+
+to start :count :size
+    draw
+    repeat 360/:count[fd 1 rt 1]
+end
+
+to draw
+    penup
+    forward 10
+    pendown
+    repeat 360[fd 1 rt 1]
+    penup
+    back 10
+end
+
+circles 1
