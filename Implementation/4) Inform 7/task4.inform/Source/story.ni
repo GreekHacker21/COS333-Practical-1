@@ -36,8 +36,8 @@ Paul Speaks is a scene.
 Paul Speaks begins when the Italian box is in the aquarium and the Greek box is in the aquarium.
 
 When Paul Speaks begins:
-	say "Which box will you open?[paragraph break]
-		The Greek box or the Italian box?[paragraph break]";
+	say "Paul the Octopus asks 'Which box will you open?
+		The Greek box or the Italian box?'.[paragraph break]";
 		
 Asking someone about something is speech. 
 Answering someone that something is speech. 
