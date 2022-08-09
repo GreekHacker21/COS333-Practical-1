@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.8.3)  4 AUG 2022 07:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.30) (preloaded format=pdflatex 2022.8.3)  9 AUG 2022 18:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -531,33 +531,19 @@ LaTeX Warning: No \author given.
 \tf@toc=\write4
 \openout4 = `Report.toc'.
 
- [2] [3]
-Overfull \hbox (33.25385pt too wide) in paragraph at lines 76--76
-[]\OT1/cmr/bx/n/17.28 Esoteric pro-gram-ming lan-guages cat-e-gories  [] 
- []
-
-[4]
-Overfull \hbox (7.42384pt too wide) in paragraph at lines 88--88
-[]\OT1/cmr/bx/n/17.28 Chosen es-o-teric pro-gram-ming lan-guages  [] 
- []
-
-[5] [6] (Report.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [7] (Report.aux) ) 
+ [2] [3] (Report.bbl) [4] (Report.aux) ) 
 Here is how much of TeX's memory you used:
- 16765 strings out of 478337
- 343690 string characters out of 2836667
- 636442 words of memory out of 3000000
- 34872 multiletter control sequences out of 15000+600000
- 475859 words of font info for 51 fonts, out of 8000000 for 9000
+ 16772 strings out of 478337
+ 343798 string characters out of 2836667
+ 635455 words of memory out of 3000000
+ 34878 multiletter control sequences out of 15000+600000
+ 476196 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,6n,92p,569b,275s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/jason/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jason/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jason/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Report.pdf (7 pages, 72549 bytes).
+ <C:\Users\jason\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/jason/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jason/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jason/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on Report.pdf (4 pages, 74925 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

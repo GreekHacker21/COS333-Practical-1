@@ -1,3 +1,19 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{Question1Explain1}
+Donald Knuth.
+\newblock Knuth: Computers and typesetting.
+
+\bibitem{Question1Explain2}
+Donald Knuth.
+\newblock Knuth: Computers and typesetting.
+
+\bibitem{Question4Point2}
+James McGovern.
+\newblock Design by contract.
+
+\bibitem{Question4Point1}
+the Racket~Team.
+\newblock Contracts.
 
 \end{thebibliography}
