@@ -1,0 +1,24 @@
+clearscreen window
+
+to circles :count
+  	pendown
+    if :count <= 1 [repeat 360[fd 1 rt 1]]
+    if :count > 1 [start :count :count]
+end
+
+to start :initial :current
+    penup
+  	make "radius (360/(2*3.14))
+    make "original :radius+((:radius/2)*(:initial/2))
+    make "extra power ((:radius/2)*(:initial/2)) ((:initial+1.5)/:initial)
+    make "spacing :radius+:extra
+    forward :spacing
+  	pendown
+  	repeat 360[fd 1 rt 1]
+    penup
+    back :spacing
+    repeat 360/:count[fd 1 rt 1]
+    if :current > 0 [start :initial :current-1]
+end
+
+circles 8
