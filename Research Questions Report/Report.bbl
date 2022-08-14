@@ -1,19 +1,39 @@
 \begin{thebibliography}{1}
 
-\bibitem{Question1Explain1}
-Donald Knuth.
-\newblock Knuth: Computers and typesetting.
+\bibitem{Question2Funges}
+Wikimedia Foundation/Academic.
+\newblock Esoteric programming language.
 
-\bibitem{Question1Explain2}
-Donald Knuth.
-\newblock Knuth: Computers and typesetting.
+\bibitem{Question2Encoding}
+Wikimedia Foundation/Academic.
+\newblock Esoteric programming language.
+
+\bibitem{Question3Pics}
+Jakub Górowski.
+\newblock 4 esoteric programming languages that will blow your mind.
 
 \bibitem{Question4Point2}
 James McGovern.
 \newblock Design by contract.
 
+\bibitem{Question3Chef}
+David Morgan-Mar.
+\newblock Chef.
+
+\bibitem{Question4DbC}
+Dave Nicolette.
+\newblock Design by contract: Part one.
+
+\bibitem{Question3Whitespace}
+Durham University~Computing Society.
+\newblock Whitespace.
+
 \bibitem{Question4Point1}
 the Racket~Team.
 \newblock Contracts.
+
+\bibitem{Question1Explain1}
+Unknown.
+\newblock Esoteric programming language.
 
 \end{thebibliography}

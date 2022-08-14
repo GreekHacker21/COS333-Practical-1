@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-97"/>
+  <activeNode nodeId="node-64"/>
   <item nodeId="node-1">
     <command xml:space="preserve">task4</command>
-    <result xml:space="preserve">task4&#x000A;An Interactive Fiction by Jason Antalis 19141859&#x000A;Release 1 / Serial number 220807 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;room A&#x000A;You can see Greek box (closed) and Italian box (closed) here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">task4&#x000A;An Interactive Fiction by Jason Antalis 19141859&#x000A;Release 1 / Serial number 220811 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;room A&#x000A;You can see Greek box (closed) and Italian box (closed) here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
@@ -124,6 +124,7 @@
       <child nodeId="node-15"/>
       <child nodeId="node-44"/>
       <child nodeId="node-46"/>
+      <child nodeId="node-98"/>
     </children>
   </item>
   <item nodeId="node-15">
@@ -420,6 +421,30 @@
   <item nodeId="node-48">
     <command xml:space="preserve">tell paul greek</command>
     <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">tell paul yeet</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">answer paul yeet</command>
+    <result xml:space="preserve">(to Paul the Octopus)&#x000A;Cannot open a box yet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">say yeet</command>
+    <result xml:space="preserve">(to Paul the Octopus)&#x000A;Cannot open a box yet.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>

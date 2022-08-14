@@ -70,17 +70,22 @@
 \subsection{Explanation}
 An esoteric programming language (or esolang) is a computer programming language that is not designed to offer an efficient or elegant solution to computational problems but to explore the basic ideas behind computation theory or have fun and create a completely unique programming language.
 \cite{Question1Explain1}
-\cite{Question1Explain2}
 %------------------------------------------------------------------
 % Question 2
 %------------------------------------------------------------------
 \section{Categories \hfill \text{Question 2}}
 \subsection{Funges}
 \subsubsection{Advantages}
+They are efficient and require less time to write a program if the language is known well enough.
 \subsubsection{Disadvantages}
+They are not very readable and are also not very writeable.
+\cite{Question2Funges}
 \subsection{Stateful encoding lamguages}
 \subsubsection{Advantages}
+This method of encoding can be more efficient than the other encoding methods.
 \subsubsection{Disadvantages}
+Slow and any kind of corruption will cause the entire program to stop working.
+\cite{Question2Encoding}
 
 %------------------------------------------------------------------
 % Question 3
@@ -88,22 +93,73 @@ An esoteric programming language (or esolang) is a computer programming language
 \section{Chosen languages \hfill \text{Question 3}}
 \subsection{Chef}
 \subsubsection{Description}
+Chef is a stack-based language where programs look like cooking recipes.
+\subsubsection*{Designer}
+David Morgan-Mar came up with the idea and fully implemented the language on his own.
+\subsubsection*{Year of initial design}
+Chef was designed by David Morgan-Mar in 2002.
+\subsubsection*{Syntax and semantics characteristics}
+Chef contains ingredients and the method of cooking.
+The ingredients hold data values which are numerical.
+The cooking outputs the results of the method which manipulates the data values accordingly.
+\cite{Question3Chef}
 \subsubsection{Code Snippet}
-\subsection{Language 2}
+\begin{center}\includegraphics[width=0.7\textwidth]{assets/chef.png}
+    \cite{Question3Pics}
+\end{center}
+\subsection{Whitespace}
 \subsubsection{Description}
+Whitespace is a programming language which is fighting an injustice on tabs and spaces for being invisible.
+\subsubsection*{Designers}
+The interpreter was written by Edwin Brady, meanwhile the language was designed by Edwin Brady and Chris Morris.
+Andrew Stribblehill has also contributed to the language.
+\subsubsection*{Year of initial design}
+Released April 1st, 2003 is when the language was released.
+\subsubsection*{Syntax and semantics characteristics}
+Whitespace only contains the following characters: Space (ASCII 32), Tab (ASCII 9) and Line Feed (ASCII 10).
+The language itself is an imperative, stack based language.
+Each command consists of tokens, which begin with Instruction Modification Parameters (IMP):
+\begin{center}
+    \begin{tabular}{|l|l|}
+        \hline
+        \textbf{IMP} & \textbf{Meaning} \\
+        \hline
+        \textbf{[Space]} & Stack Manipulation \\
+        \hline
+        \textbf{[Tab][Space]} & Arithmetic \\
+        \hline
+        \textbf{[Tab][Tab]} & Heap Access \\
+        \hline
+        \textbf{[LF]} & Flow Control \\
+        \hline
+        \textbf{[Tab][LF]} & I/O \\
+        \hline
+    \end{tabular}
+\end{center}
+Numbers can be any number of bits wide, and are simply represented as a series of [Space] and [Tab], terminated by a [LF]. [Space] represents the binary digit 0, [Tab] represents 1.
+\cite{Question3Whitespace}
 \subsubsection{Code Snippet}
+\begin{center}
+    Code written in tabs and spaces which have changed visually respectfully:
+    \includegraphics[width=0.7\textwidth]{assets/whitespace.png}
+    \cite{Question3Pics}
+\end{center}
 
 %------------------------------------------------------------------
 % Question 4
 %------------------------------------------------------------------
 \section{Design by Contract \hfill \text{Question 4}}
 \subsection{Explanation}
+Design by contract is a technique to software design that focuses on specifiying contracts that define the interactions between the various components of a system.
+It is a tool for helping software developers feel that their code is correct.
+ALong with other things such as: type systems, executable test cases, static code analysis and mutation testing.
+\cite{Question4DbC}
 \subsection{Language Support}
 \begin{itemize}
-    \item Effiel
-    \cite{Question4Point2}
     \item Racket
     \cite{Question4Point1}
+    \item Effiel
+    \cite{Question4Point2}
 \end{itemize}
 \newpage
 

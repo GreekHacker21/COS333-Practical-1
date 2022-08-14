@@ -10,10 +10,10 @@
 \contentsline {section}{\numberline {3}Chosen languages \hfill \text {Question 3}}{3}{}%
 \contentsline {subsection}{\numberline {3.1}Chef}{3}{}%
 \contentsline {subsubsection}{\numberline {3.1.1}Description}{3}{}%
-\contentsline {subsubsection}{\numberline {3.1.2}Code Snippet}{3}{}%
-\contentsline {subsection}{\numberline {3.2}Language 2}{3}{}%
-\contentsline {subsubsection}{\numberline {3.2.1}Description}{3}{}%
-\contentsline {subsubsection}{\numberline {3.2.2}Code Snippet}{3}{}%
-\contentsline {section}{\numberline {4}Design by Contract \hfill \text {Question 4}}{3}{}%
-\contentsline {subsection}{\numberline {4.1}Explanation}{3}{}%
-\contentsline {subsection}{\numberline {4.2}Language Support}{3}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}Code Snippet}{4}{}%
+\contentsline {subsection}{\numberline {3.2}Whitespace}{4}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Description}{4}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Code Snippet}{5}{}%
+\contentsline {section}{\numberline {4}Design by Contract \hfill \text {Question 4}}{5}{}%
+\contentsline {subsection}{\numberline {4.1}Explanation}{5}{}%
+\contentsline {subsection}{\numberline {4.2}Language Support}{5}{}%
